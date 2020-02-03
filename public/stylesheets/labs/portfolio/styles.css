@@ -1,7 +1,7 @@
 h1{
     font-style: 'Pacifico',cursive;
     color: white;
-    color:white;
+    
     text-align:center;
     font-size:4em;
     margin-bottom: 0px;
@@ -9,7 +9,7 @@ h1{
 
 body{
     background-color: black;
-    color: gray;
+    color: white;
 }
 header, main,nav,footer{
     text-align: center;
@@ -21,6 +21,8 @@ nav a {
     font-size: 1.8em;
     text-decoration: none;
     color: white;
+    /*text-decoration: underline;*/
+    /*color: orange;*/
     
 }
 #me, #welcomeText{
@@ -29,6 +31,7 @@ nav a {
 
 footer{
     clear: left;
+    color: yellow;
 }
 
 table{
@@ -63,4 +66,8 @@ ul{
     border-radius: 45%;
     width:120px;
     height: 100px;
+}
+.txt:hover {
+    text-decoration: underline;
+    color: orange;
 }

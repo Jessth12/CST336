@@ -56,6 +56,8 @@ ul{
 }
 #profilePicture{
     border-radius: 20%;
+    max-height: 500px;
+    max-width: 500px;
 }
 #logo{
     border-radius: 45%;

@@ -14,6 +14,9 @@ body{
 header, main,nav,footer{
     text-align: center;
 }
+#size{
+    font-size: 1em;
+}
 
 nav a {
     padding: 15px;
@@ -32,6 +35,7 @@ nav a {
 footer{
     clear: left;
     color: yellow;
+    font-size: .6em;
 }
 
 table{

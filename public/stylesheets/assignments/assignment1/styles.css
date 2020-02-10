@@ -6,7 +6,15 @@ h1{
     font-size:2em;
     margin-bottom: 0px;
 }
-
+h2{
+    font-style: 'Pacifico',cursive;
+    color: black;
+    
+    text-align:center;
+    font-size:1.5em;
+    margin-bottom: 0px;
+    font-weight: strong;
+}
 body{
     background-color: white;
     color: black;

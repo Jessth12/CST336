@@ -1,3 +1,5 @@
+console.log(document);
+
 //code is here
 var randomNumber = Math.floor(Math.random() * 99) + 1;
 var guesses = document.querySelector("#guesses");
@@ -7,6 +9,8 @@ var lowOrHi = document.querySelector("#lowOrHi");
 var guessSubmit = document.querySelector('.guessSubmit');
 var guessField = document.querySelector('.guessField');
 
+console.log(guessField);
+
 var guessCount = 1;
 var resetButton = document.querySelector('#reset');
 resetButton.style.display = 'none';
@@ -14,6 +18,10 @@ resetButton.style.display = 'none';
 guessField.focus();
 
 function checkGuess(){
+    
+    guessField = document.getElementById("guessField");
+    console.log(guessField);
+    
     var userGuess = Number(guessField.value);
     if (guessCount ===1){
         guesses.innerHTML = 'Previous guesses: ';

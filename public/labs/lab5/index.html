@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Lab5</title>
+	<link href="./css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+</head>
+
+<script>
+  
+</script>
+<body>
+	<style>
+	  #img-container {
+	    display: flex;
+	    justify-content: space-around;
+	    align-items: end;
+	  }
+	  #img-container img {
+	    justify-content: space-between;
+	    max-width: 25%;
+	    height: auto;
+	    flex: 1;
+	    border-radius: 25px;
+	  }
+	  #likes-container {
+	    display: flex;
+	    justify-content: space-around;
+	  }
+	</style>
+	<script src = "js/app.js"></script>
+	<h1>Pixabay Image Search</h1>
+	<form onsubmit="getInput(); return false;">
+          <label for="keyword">Keyword:</label>
+          <input type="text" id="keyword" name="keyword">
+          <br><br>
+          <label for="orientation">Orientation:</label>
+
+          <select id="orientation">
+            <option value="horizontal">Horizontal</option>
+            <option value="vertical">Vertical</option>
+          </select>
+          
+          <br><br>
+          
+          <button type="submit" value="Submit">Submit</button>
+    </form>
+    
+    <div id="likes-container"></div>
+    <div id="img-container">
+      
+    </div>
+
+</body>
+</html>

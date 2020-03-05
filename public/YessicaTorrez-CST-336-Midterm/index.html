@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sample GUI</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    	<link rel="stylesheet" type="text/css" href="style.css">
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!--<link href="./css/styles.css" rel="stylesheet" type="text/css"/>-->
+        <!--<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">-->
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>-->
+        <!--<script src="https://openlibrary.org/api/books?bibkeys=ISBN:0451526538&callback=mycallback"></script>-->
+    </head>
+    <body>
+       <body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Open Library</h1>
+			<p>Please enter the ISBN of the book you'd like to retrieve</p>
+			<form action="/" method="post" onsubmit="getInput(); return false;">
+				<div class="form-group row">
+					<label for="bibkeys" class="col-sm-2 col-form-label">ISBN</label>
+					<div class="col-sm-4">
+						<input type="text" class="form-control" id="bibkeys" placeholder="0" required>
+					</div>
+					<div class="col-sm-6">
+						<button type="submit" class="btn btn-primary">Query</button>
+					</div>
+				</div>
+			</form>
+		</div>	
+		<div class="flex-container" id="image-container"></div>
+	</div>
+	<!--<div id="img-container"></div>-->
+	
+	<script type="text/javascript" src="js/app.js"></script>
+
+    </body>
+</html>

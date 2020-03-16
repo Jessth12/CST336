@@ -1,6 +1,7 @@
 .jumbotron {
-	color: #2c3e50;
-	background: #ecf0f1
+	color: black;
+	background-color: lightblue;
+	
 }
 
 .flex-container {
@@ -33,4 +34,18 @@ img {
 
 .pokedex-img {
     width: 50px;
+}
+p{
+	font-family: serif;
+	font-weight: bold;
+}
+label{
+	font-family: serif;
+	font-weight: bold;
+}
+
+h1{
+	font-weight: bold;
+	font-family: cursive;
+	
 }

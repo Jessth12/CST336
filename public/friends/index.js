@@ -18,7 +18,7 @@ app.get("/", function(req,res){
         res.render("home");
     });
     
-var friendList = ["Alice", "Clark", "Bellany"]
+var friendList = ["Alice", "Clark", "Bellany"];
 app.get("/friends", function(req,res){
         res.render("friends", {friends: friendList});
     });

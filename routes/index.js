@@ -4,7 +4,7 @@ var request = require("request");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.end("<h1>Welcome to Yessicas Express Project!</h1>");
 });
 
 router.get('/pokemon', function(req, res, next) {

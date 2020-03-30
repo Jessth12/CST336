@@ -1,15 +1,17 @@
 {
-  "name": "lab6",
+  "name": "lab7",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Yessica Torrez Hernandez",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^3.0.2",
-    "express": "^4.17.1"
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "js": "^0.1.0",
+    "request": "^2.88.0"
   }
 }

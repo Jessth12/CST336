@@ -8,6 +8,7 @@ var indexRouter = require('./routes/index');
 var lab7Router = require('./routes/lab7');
 var as4Router =require('./routes/assignment4');
 var lab8Router = require('./routes/lab8');
+var lab9Router = require('./routes/lab9');
 
 var app = express();
 
@@ -26,7 +27,7 @@ app.use('/', indexRouter);
 app.use('/labs/lab7', lab7Router);
 app.use('/assignments/assignment4', as4Router);
 app.use('/labs/lab8', lab8Router);
-
+app.use('/labs/lab9', lab9Router);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
